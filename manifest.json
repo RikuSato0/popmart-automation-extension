@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Shopify Auto Buyer",
+  "version": "1.0",
+  "description": "Automatically purchase high-demand items as soon as they are in stock",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://*.popmart.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.popmart.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+} 
