@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Shopify Auto Buyer",
+  "name": "Pop Mart Automation Extension",
   "version": "1.0",
-  "description": "Automatically purchase high-demand items as soon as they are in stock",
+  "description": "Professional automation tool for purchasing high-demand collectibles on Pop Mart",
   "permissions": [
     "activeTab",
     "storage",

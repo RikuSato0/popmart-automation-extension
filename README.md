@@ -1,6 +1,6 @@
-# Shopify Auto Buyer
+# Pop Mart Automation Extension
 
-A Chrome extension that automates the purchase process for high-demand items on Pop Mart's Shopify store.
+A professional Chrome extension that automates the purchase process for high-demand items on Pop Mart's e-commerce platform.
 
 ## Features
 
