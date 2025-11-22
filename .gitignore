@@ -1,0 +1,27 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node modules (if added later)
+node_modules/
+package-lock.json
+
+# Build files
+dist/
+build/
+*.crx
+*.pem
+*.zip
+
+# Logs
+*.log
+npm-debug.log*
+
